@@ -1,0 +1,41 @@
+# Node.js
+node_modules
+.next
+npm-debug.log
+yarn-error.log
+
+# Git
+.git
+.gitignore
+
+# Environment variables
+.env*
+!.env.example
+
+# Docker
+Dockerfile
+docker-compose*
+README.md
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode
+.idea
+
+# Test and coverage
+coverage
+*.test.js
+*.test.ts
+*.test.tsx
+
+# Build artifacts
+dist
+build
+out
+
+# Specific to your structure
+src/**/*.js.map
+src/**/*.ts.map
+src/**/*.tsx.map
